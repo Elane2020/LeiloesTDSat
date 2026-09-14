@@ -8,7 +8,7 @@ public class listagemVIEW extends javax.swing.JFrame {
   
     public listagemVIEW() {
         initComponents();
-   //    listarProdutos();
+        listarProdutos();
     }
 
   
@@ -128,7 +128,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         ProdutosDAO produtosdao = new ProdutosDAO();
         
         //produtosdao.venderProduto(Integer.parseInt(id));
-       // listarProdutos();
+         listarProdutos();
     }//GEN-LAST:event_btnVenderActionPerformed
 
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
@@ -139,7 +139,7 @@ public class listagemVIEW extends javax.swing.JFrame {
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnVoltarActionPerformed
-/*
+
     private void listarProdutos(){
         try {
             ProdutosDAO produtosdao = new ProdutosDAO();
@@ -160,7 +160,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         } catch (Exception e) {
         }
     
-    }*/
+    }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnVendas;
